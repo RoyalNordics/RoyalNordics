@@ -11,6 +11,12 @@ This file tracks all updates and changes made to the Royal Nordics website proje
   - Added webpack and webpack-cli as dev dependencies
   - Updated index.html to reference the bundled JavaScript file (bundle.js)
   - Tested changes locally to confirm website renders correctly
+- Created DOCUMENTATION.md with comprehensive information about:
+  - Build process and configuration
+  - Website structure and implementation details
+  - Content structure and organization
+  - Maintenance and troubleshooting guidelines
+  - Future enhancement suggestions
 - Deployment status: Working at https://royalnordics.onrender.com
 
 ### [Next Update - Name]
