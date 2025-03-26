@@ -2,7 +2,7 @@ services:
   - type: web
     name: royal-nordics-website
     buildCommand: npm run build
-    startCommand: npx http-server ./build -c-1
+    startCommand: cd $PWD && npx http-server build -c-1
     routes:
       - source: /
         destination: /
