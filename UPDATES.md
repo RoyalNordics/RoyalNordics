@@ -1,4 +1,4 @@
-What # Royal Nordics Website Updates
+# Royal Nordics Website Updates
 
 This file tracks all updates and changes made to the Royal Nordics website project. Both Cline and Roo should update this file whenever a task is completed.
 
@@ -30,10 +30,10 @@ This file tracks all updates and changes made to the Royal Nordics website proje
 
 ### March 26, 2025 - Cline
 - Fixed Render deployment issues:
-  - Changed render.yaml to use `type: static_site` instead of `type: web` with `env: static`
-  - Updated from `staticPublishPath` to `publishDir` for the build directory
-  - Added Cache-Control header to prevent caching issues
-  - Simplified the configuration to follow Render's recommended static site setup
+  - Reverted back to using `type: web` service in render.yaml
+  - Set explicit start command to `npx http-server ./build -c-1`
+  - Configured proper routes for the web service
+  - Used npx to ensure http-server runs correctly in the Render environment
 - Deployment status: Pending verification at https://royalnordics.onrender.com
 
 ## How to Use This File
