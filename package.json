@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "http-server -c-1",
-    "build": "rm -rf build &amp;&amp; mkdir build &amp;&amp; cp -r index.html style.css script.js build"
+    "build": "mkdir -p build &amp;&amp; cp index.html style.css script.js build"
   },
   "dependencies": {
     "http-server": "^14.1.1",
