@@ -1,9 +1,8 @@
 services:
-  - type: static_site
+  - type: web
     name: royal-nordics-website
     buildCommand: npm run build
-    publishDir: build
-    headers:
-      - path: /*
-        name: Cache-Control
-        value: no-cache
+    startCommand: npx http-server ./build -c-1
+    routes:
+      - source: /
+        destination: /
