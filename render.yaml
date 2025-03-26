@@ -4,5 +4,6 @@ services:
     routes:
       - source: /
         destination: /
-    staticDir: .
+    staticDir: build
     startCommand: npm start
+    buildCommand: npm run build
