@@ -31,11 +31,11 @@ This file tracks all updates and changes made to the Royal Nordics website proje
 ### March 26, 2025 - Cline
 - Fixed Render deployment issues:
   - Reverted back to using `type: web` service in render.yaml
-  - Set explicit start command to `npx http-server ./build -c-1`
+  - Updated start command to use absolute path: `cd $PWD && npx http-server build -c-1`
   - Configured proper routes for the web service
   - Used npx to ensure http-server runs correctly in the Render environment
   - Fixed HTML syntax issues in the build process by updating the build script to use `cat` instead of `cp` for index.html
-- Deployment status: Working at https://royalnordics.onrender.com
+- Deployment status: Pending verification at https://royalnordics.onrender.com
 
 ## How to Use This File
 
