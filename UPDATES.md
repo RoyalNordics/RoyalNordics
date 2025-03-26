@@ -30,8 +30,10 @@ This file tracks all updates and changes made to the Royal Nordics website proje
 
 ### March 26, 2025 - Cline
 - Fixed Render deployment issues:
-  - Updated the start command in render.yaml to use a more explicit path to the build directory
-  - Changed from `npm start` to `cd build && npx http-server -c-1` to ensure the server starts in the correct directory
+  - Completely revised render.yaml to use static site configuration
+  - Changed from web service with start command to static site deployment
+  - Set staticPublishPath to ./build to serve the built files
+  - Added a rewrite rule to handle client-side routing
 - Deployment status: Pending verification at https://royalnordics.onrender.com
 
 ## How to Use This File
