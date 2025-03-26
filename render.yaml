@@ -1,0 +1,8 @@
+services:
+  - type: web_static
+    name: royal-nordics-website
+    routes:
+      - source: /
+        destination: /
+    staticDir: .
+    startCommand: npm start
