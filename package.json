@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "http-server build -c-1",
-    "build": "webpack && cp index.html style.css build/ && mkdir -p build/images && find \"Royal Nordics UI\" -name \"*.webp\" -exec cp {} build/images/ \\;"
+    "build": "webpack && cat index.html > build/index.html && cp style.css build/ && mkdir -p build/images && find \"Royal Nordics UI\" -name \"*.webp\" -exec cp {} build/images/ \\;"
   },
   "dependencies": {
     "http-server": "^14.1.1",
