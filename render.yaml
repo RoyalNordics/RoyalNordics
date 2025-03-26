@@ -1,8 +1,9 @@
 services:
   - type: web
     name: royal-nordics-website
+    runtime: static
     buildCommand: npm run build
-    startCommand: cd $PWD && npx http-server build -c-1
-    routes:
-      - source: /
-        destination: /
+    staticPublishPath: ./build
+    envVars:
+      - key: NODE_VERSION
+        value: 18.x
