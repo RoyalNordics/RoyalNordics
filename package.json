@@ -4,7 +4,7 @@
   "description": "Royal Nordics website",
   "main": "index.html",
   "scripts": {
-    "start": "http-server -c-1",
+    "start": "http-server build -c-1",
     "build": "mkdir -p build &amp;&amp; cp index.html style.css script.js build"
   },
   "dependencies": {
