@@ -4,5 +4,5 @@ services:
     routes:
       - source: /
         destination: /
-    startCommand: npm start
+    startCommand: cd build && npx http-server -c-1
     buildCommand: npm run build
