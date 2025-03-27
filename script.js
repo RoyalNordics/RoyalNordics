@@ -5,7 +5,7 @@ const App = () => {
   return (
     <>
       {/* Forside (Landing Page) Section */}
-      <section id="forside">
+      <section id="home">
         <div className="relative flex size-full min-h-screen flex-col bg-[#121118] dark group/design-root overflow-x-hidden" style={{fontFamily: '"Space Grotesk", "Noto Sans", sans-serif'}}>
           <div className="layout-container flex h-full grow flex-col">
             <div className="px-40 flex flex-1 justify-center py-5">
@@ -41,7 +41,7 @@ const App = () => {
       </section>
 
       {/* Om os (About Us) Section */}
-      <section id="om-os">
+      <section id="about-us">
         <div className="relative flex size-full min-h-screen flex-col bg-[#121118] dark group/design-root overflow-x-hidden" style={{fontFamily: '"Space Grotesk", "Noto Sans", sans-serif'}}>
           <div className="layout-container flex h-full grow flex-col">
             <div className="px-40 flex flex-1 justify-center py-5">
@@ -77,7 +77,7 @@ const App = () => {
       </section>
 
       {/* Løsninger (Solutions) Section */}
-      <section id="losninger">
+      <section id="solutions">
         <div className="relative flex size-full min-h-screen flex-col bg-[#121118] dark group/design-root overflow-x-hidden" style={{fontFamily: '"Space Grotesk", "Noto Sans", sans-serif'}}>
           <div className="layout-container flex h-full grow flex-col">
             <div className="px-40 flex flex-1 justify-center py-5">
@@ -100,7 +100,7 @@ const App = () => {
       </section>
 
       {/* Branchefokus (Industry Focus) Section */}
-      <section id="branchefokus">
+      <section id="industry-focus">
         <div className="relative flex size-full min-h-screen flex-col bg-[#121118] dark group/design-root overflow-x-hidden" style={{fontFamily: '"Space Grotesk", "Noto Sans", sans-serif'}}>
           <div className="layout-container flex h-full grow flex-col">
             <div className="px-40 flex flex-1 justify-center py-5">
@@ -123,7 +123,7 @@ const App = () => {
       </section>
 
       {/* Cases & Referencer (Case Studies) Section */}
-      <section id="cases-referencer">
+      <section id="cases-references">
         <div className="relative flex size-full min-h-screen flex-col bg-[#121118] dark group/design-root overflow-x-hidden" style={{fontFamily: '"Space Grotesk", "Noto Sans", sans-serif'}}>
           <div className="layout-container flex h-full grow flex-col">
             <div className="px-40 flex flex-1 justify-center py-5">
@@ -168,7 +168,7 @@ const App = () => {
       </section>
 
       {/* Kontakt (Contact) Section */}
-      <section id="kontakt">
+      <section id="contact">
         <div className="relative flex size-full min-h-screen flex-col bg-[#121118] dark group/design-root overflow-x-hidden" style={{fontFamily: '"Space Grotesk", "Noto Sans", sans-serif'}}>
           <div className="layout-container flex h-full grow flex-col">
             <div className="px-40 flex flex-1 justify-center py-5">
